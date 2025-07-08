@@ -9,15 +9,16 @@
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-        <style>
+                 <style>
              body {
                text-align: center;
                background-color:rgba(255, 99, 71, 0);
                margin: 25;
-               height: 200vh;
+               height: 300vh;
                justify-content: center;  /* Horizontal center */
                align-items: center;      /* Vertical center */
                font-family: Verdana;
+               font-weight: bold; /* Makes all text bold */
                  background-image: url('bscs-am5.png');
                  background-repeat: no-repeat;
                  background-size: cover;
@@ -31,8 +32,14 @@
                    border-radius: 15px;
                    width: 60%;
                    text-align: center; /* Center contents inside */
-                   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2)
                  }
+              h1 {
+                font-size: 30px;
+                }
+            p {
+              font-size: 20px;
+              }
     </style>
   </head>
   <body>
