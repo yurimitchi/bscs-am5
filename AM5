@@ -14,11 +14,10 @@
                text-align: center;
                background-color:rgba(255, 99, 71, 0);
                margin: 25;
-               height: 100vh; display: flex;
+               height: 200vh;
                justify-content: center;  /* Horizontal center */
                align-items: center;      /* Vertical center */
                font-family: Verdana;
-               font-weight: bold; /* Makes all text bold */
                  background-image: url('bscs-am5.png');
                  background-repeat: no-repeat;
                  background-size: cover;
@@ -34,38 +33,21 @@
                    text-align: center; /* Center contents inside */
                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
                  }
-                 header h1 {
-                   font-size: 2.5rem;
-                   text-align: center;
-                   }
-                h1 {
-      font-size: 6vw;
-    }
-
-    @media (min-width: 768px) {
-      h1 {
-        font-size: 3rem;
-      }
-    }
-
-    @media (min-width: 1024px) {
-      h1 {
-        font-size: 3.5rem;
-      }
-    }
     </style>
   </head>
   <body>
   <div class="panel">
-    <h1>Welcome classmates/blockmates!</h1>
+    <h1 class>Welcome classmates/blockmates!</h1>
     <p>Kick start your eat.code.repeat routine by joining our official GC here <a href="https://m.me/j/AbZa18pK_mFWwIK3/">BSCS AM5</a>.</p>
     <p>Why don't we start by introducing to you some of our classmates/blockmates that's already in the GC so that you can know them a bit before meeting them in the GC!</p>
     <p>And for easier monitoring we plan to utilize this website as well to post any urgent announcements such as quizzes,test,projects,deadlines and such for easier monitoring. Don't worry as we will be sending these announcements in the GC as well for everyone to easily see</p>
     <h2>Meet the class of BSCS AM5 Batch 2029!</h2>
-    <img src="sari.jpg" alt="sari" width="200" height="200">
+    <img src="sari.jpg" alt="sari" width="200" height="150">
     <p><a href="https://www.facebook.com/yurimitchii">Sarisha Francesca Ortega</a></p>
-    <img src="paul.jpg" alt="paul" width="200" height="200">
+    <img src="paul.jpg" alt="paul" width="200" height="150">
     <p><a href="https://www.facebook.com/jediii11/">Paul Perez</a></p>
-  </div>
+    <img src="burke.jpg" alt="burke" width="200" height="150">
+    <p><a href="https://www.facebook.com/share/16j7F2tJj2/?mibextid=wwXIfr">Burke Altair Rocamora</a></p>
+    </div>
   </body>
 </html>
